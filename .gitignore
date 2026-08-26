@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 仿真输出（不入库）
+output/
+*.vtu
+*.xdmf
+*.h5
+*.pvd
+
+# 旧项目存档（含独立 .git，作为只读参考，不入库）
+legacy_v1/
+
+# 内部工作文档（不公开：含个人化记录，公开价值低）
+docs/2026-*.md
+docs/科研日志.md
+docs/D0*.md
+docs/_legacy_plan/
+docs/_legacy_source/
+docs/成书/
+docs/论文/
+
+# IDE / 系统
+.vscode/
+.DS_Store
+Thumbs.db
+

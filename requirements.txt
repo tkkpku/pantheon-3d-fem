@@ -1,0 +1,12 @@
+# 万神殿 3D FEM 工具链（总纲 §1.1 锁定）——参考清单
+# 2026-08-11 起安装走 conda-forge（tools/setup_env_wsl.sh），本文件不再用于 pip install。
+# fenics-dolfinx 未上架 PyPI（实测清华/阿里/官方源均 404），pip 无法安装。
+# conda-forge 包：fenics-dolfinx=0.8.0 mpich meshio pyvista numpy scipy matplotlib
+# pip 补装（清华镜像）：gmsh（conda-forge 的 gmsh 不含 Python 绑定）
+gmsh>=4.12.0
+pyvista>=0.43
+matplotlib>=3.8
+numpy
+scipy
+meshio
+tqdm
